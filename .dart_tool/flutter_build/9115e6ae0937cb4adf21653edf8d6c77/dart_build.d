@@ -1,0 +1,1 @@
+ /home/akobir/Desktop/anzirat/.dart_tool/flutter_build/9115e6ae0937cb4adf21653edf8d6c77/dart_build_result.json: 

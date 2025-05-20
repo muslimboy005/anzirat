@@ -1,0 +1,1 @@
+ /Users/nodirbek/Mobile\ N15/4-month/10-lesson.\ Permissions/anzirat/.dart_tool/flutter_build/4ea435978e6cb815571a973a86157ee0/dart_build_result.json: 

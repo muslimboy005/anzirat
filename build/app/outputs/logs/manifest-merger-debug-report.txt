@@ -1,0 +1,610 @@
+-- Merging decision tree log ---
+application
+INJECTED from /home/akobir/Desktop/anzirat/android/app/src/main/AndroidManifest.xml:2:5-35:19
+INJECTED from /home/akobir/Desktop/anzirat/android/app/src/debug/AndroidManifest.xml
+MERGED from [:cloud_firestore] /home/akobir/Desktop/anzirat/build/cloud_firestore/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /home/akobir/Desktop/anzirat/build/cloud_firestore/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /home/akobir/Desktop/anzirat/build/firebase_core/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /home/akobir/Desktop/anzirat/build/firebase_core/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.4] /home/akobir/.gradle/caches/8.10.2/transforms/77649fd1c7fb900a4267d255a26d7478/transformed/jetified-firebase-firestore-25.1.4/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.4] /home/akobir/.gradle/caches/8.10.2/transforms/77649fd1c7fb900a4267d255a26d7478/transformed/jetified-firebase-firestore-25.1.4/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-analytics:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4f182c471d29c04c054346412ddb22ee/transformed/jetified-firebase-analytics-22.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4f182c471d29c04c054346412ddb22ee/transformed/jetified-firebase-analytics-22.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/a483e211b93e4979737e2f6374c1a6af/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/a483e211b93e4979737e2f6374c1a6af/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/d4f80440a39ac3464c7b03951ec5eca3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/d4f80440a39ac3464c7b03951ec5eca3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/65a9d18ee838cb493944ca5d890d73cf/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/65a9d18ee838cb493944ca5d890d73cf/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/0709e0505fb3a4af8828daf8b82e9616/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/0709e0505fb3a4af8828daf8b82e9616/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/7bfe7412aba129e41d3af0313cae2005/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/7bfe7412aba129e41d3af0313cae2005/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/00518d6f8d9a677cdb87652fc9ef8de1/transformed/jetified-play-services-measurement-sdk-22.4.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/00518d6f8d9a677cdb87652fc9ef8de1/transformed/jetified-play-services-measurement-sdk-22.4.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/akobir/.gradle/caches/8.10.2/transforms/6e309a59e50ed66230dcc70a6d9bbeb8/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/akobir/.gradle/caches/8.10.2/transforms/6e309a59e50ed66230dcc70a6d9bbeb8/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/639e5a738f79ef0b656c765b3b6e8e68/transformed/jetified-play-services-measurement-impl-22.4.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/639e5a738f79ef0b656c765b3b6e8e68/transformed/jetified-play-services-measurement-impl-22.4.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/26ea5a18575ba8cf8b0d3786bdabf17e/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/26ea5a18575ba8cf8b0d3786bdabf17e/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/b1cbf1f0045adcfb3bf974de891089c8/transformed/jetified-play-services-measurement-base-22.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/b1cbf1f0045adcfb3bf974de891089c8/transformed/jetified-play-services-measurement-base-22.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/akobir/.gradle/caches/8.10.2/transforms/3252e9493e09f2efe1be25a85ec079da/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/akobir/.gradle/caches/8.10.2/transforms/3252e9493e09f2efe1be25a85ec079da/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/6dd465265a93cf9486f3374ba47451ad/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/6dd465265a93cf9486f3374ba47451ad/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /home/akobir/.gradle/caches/8.10.2/transforms/1d7753ef065727502c3c17f8c8e7e185/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /home/akobir/.gradle/caches/8.10.2/transforms/1d7753ef065727502c3c17f8c8e7e185/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [androidx.window:window:1.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/27439c25d4bdb5512ee3a87dc24706ac/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/27439c25d4bdb5512ee3a87dc24706ac/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /home/akobir/.gradle/caches/8.10.2/transforms/dc7a4faaf421fa2ac02c2a2a6b25e2e3/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /home/akobir/.gradle/caches/8.10.2/transforms/dc7a4faaf421fa2ac02c2a2a6b25e2e3/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/741d51c4e89ab9b002a3c94810505322/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/741d51c4e89ab9b002a3c94810505322/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/9634b9b5ebbc8c2e62989d0930941129/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/9634b9b5ebbc8c2e62989d0930941129/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] /home/akobir/.gradle/caches/8.10.2/transforms/510705528704b0f7adce8e9b29159709/transformed/jetified-play-services-basement-18.5.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] /home/akobir/.gradle/caches/8.10.2/transforms/510705528704b0f7adce8e9b29159709/transformed/jetified-play-services-basement-18.5.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.13.1] /home/akobir/.gradle/caches/8.10.2/transforms/7fc5c742c6cb7c9440eca269c6b3d363/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /home/akobir/.gradle/caches/8.10.2/transforms/7fc5c742c6cb7c9440eca269c6b3d363/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/f70bbed580018ce04323adf4742e72d7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/f70bbed580018ce04323adf4742e72d7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/akobir/.gradle/caches/8.10.2/transforms/385aee54925ca27463353f2f2c976e73/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/akobir/.gradle/caches/8.10.2/transforms/385aee54925ca27463353f2f2c976e73/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/akobir/.gradle/caches/8.10.2/transforms/605143ce6588e70a0028ddb243047b90/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/akobir/.gradle/caches/8.10.2/transforms/605143ce6588e70a0028ddb243047b90/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /home/akobir/.gradle/caches/8.10.2/transforms/eda99ddab973edecd0a865ed4941e6af/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /home/akobir/.gradle/caches/8.10.2/transforms/eda99ddab973edecd0a865ed4941e6af/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:7:5-11:19
+	android:extractNativeLibs
+		INJECTED from /home/akobir/Desktop/anzirat/android/app/src/debug/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /home/akobir/.gradle/caches/8.10.2/transforms/7fc5c742c6cb7c9440eca269c6b3d363/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:name
+		INJECTED from /home/akobir/Desktop/anzirat/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /home/akobir/Desktop/anzirat/android/app/src/main/AndroidManifest.xml:1:1-47:12
+MERGED from /home/akobir/Desktop/anzirat/android/app/src/main/AndroidManifest.xml:1:1-47:12
+INJECTED from /home/akobir/Desktop/anzirat/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/akobir/Desktop/anzirat/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/akobir/Desktop/anzirat/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+MERGED from [:cloud_firestore] /home/akobir/Desktop/anzirat/build/cloud_firestore/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] /home/akobir/Desktop/anzirat/build/firebase_core/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.firebase:firebase-firestore:25.1.4] /home/akobir/.gradle/caches/8.10.2/transforms/77649fd1c7fb900a4267d255a26d7478/transformed/jetified-firebase-firestore-25.1.4/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-analytics:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4f182c471d29c04c054346412ddb22ee/transformed/jetified-firebase-analytics-22.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/a483e211b93e4979737e2f6374c1a6af/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/d4f80440a39ac3464c7b03951ec5eca3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/65a9d18ee838cb493944ca5d890d73cf/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/0709e0505fb3a4af8828daf8b82e9616/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [:google_maps_flutter_android] /home/akobir/Desktop/anzirat/build/google_maps_flutter_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_plugin_android_lifecycle] /home/akobir/Desktop/anzirat/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/7bfe7412aba129e41d3af0313cae2005/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/00518d6f8d9a677cdb87652fc9ef8de1/transformed/jetified-play-services-measurement-sdk-22.4.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/akobir/.gradle/caches/8.10.2/transforms/6e309a59e50ed66230dcc70a6d9bbeb8/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/639e5a738f79ef0b656c765b3b6e8e68/transformed/jetified-play-services-measurement-impl-22.4.0/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/26ea5a18575ba8cf8b0d3786bdabf17e/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/9b896d0a570601fa4a2f5abcf835befe/transformed/jetified-play-services-measurement-sdk-api-22.4.0/AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/b1cbf1f0045adcfb3bf974de891089c8/transformed/jetified-play-services-measurement-base-22.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/akobir/.gradle/caches/8.10.2/transforms/3252e9493e09f2efe1be25a85ec079da/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/6dd465265a93cf9486f3374ba47451ad/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/akobir/.gradle/caches/8.10.2/transforms/c1508942efbcced8351531507f1c5c83/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /home/akobir/.gradle/caches/8.10.2/transforms/1d7753ef065727502c3c17f8c8e7e185/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /home/akobir/.gradle/caches/8.10.2/transforms/72a4c79bbb1d6227ca51abd962f8c9fb/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:15:1-19:12
+MERGED from [androidx.window:window:1.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/27439c25d4bdb5512ee3a87dc24706ac/transformed/jetified-window-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.window:window-java:1.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/667b856a0b278b30ac7ae2891e276829/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:17:1-21:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] /home/akobir/.gradle/caches/8.10.2/transforms/0853fa8d026491d0fa9354d7df0467d9/transformed/jetified-ads-adservices-java-1.1.0-beta11/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /home/akobir/.gradle/caches/8.10.2/transforms/dc7a4faaf421fa2ac02c2a2a6b25e2e3/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/41d3c1b0ab6e757532718b39806e69c0/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/49642b896c199de34be912d082247b42/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.8.1] /home/akobir/.gradle/caches/8.10.2/transforms/8b0c0d9b2754a3cdd7989518458297b9/transformed/jetified-activity-1.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/bb03bb497a1d10013dadb3b071e0f839/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/33b3459aa297e5d84a3333493962d6f9/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/a1b003a7735a6a45ea53e2e50fd4e99d/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/b14af1388f34e68607ab121f849d82c0/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/846d7fa48fc163c73e8e5144db254d5f/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/741d51c4e89ab9b002a3c94810505322/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/9634b9b5ebbc8c2e62989d0930941129/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] /home/akobir/.gradle/caches/8.10.2/transforms/510705528704b0f7adce8e9b29159709/transformed/jetified-play-services-basement-18.5.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.7.1] /home/akobir/.gradle/caches/8.10.2/transforms/655b8aab7c7e969674c4a15cf33aa20b/transformed/fragment-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/07e086e9bd99958283dac9dc11656bb2/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /home/akobir/.gradle/caches/8.10.2/transforms/424ad07aad44ad6c576462832c4bba24/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/3c73aa8a604276ecfa019b74c021069e/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] /home/akobir/.gradle/caches/8.10.2/transforms/7fc5c742c6cb7c9440eca269c6b3d363/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/53f1b7f33b7c1bd16b8c68366d0f79dc/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/f70bbed580018ce04323adf4742e72d7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/akobir/.gradle/caches/8.10.2/transforms/330de5cf429d5bab9c6a157a1c272a1f/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/akobir/.gradle/caches/8.10.2/transforms/385aee54925ca27463353f2f2c976e73/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/a6f77a89ac66df62276fc8f2fb5d84e5/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/c0f5c34eca95e74a3909ad82082656a5/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/0faf619ebc8e74a98f770cfe8bb957e8/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/akobir/.gradle/caches/8.10.2/transforms/605143ce6588e70a0028ddb243047b90/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/8db80dc3d7b9568ad6df0ced6c9b6bbe/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/cde24d5cab3eeae53f1bd5eaf9ab5e6b/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/ceea73ec94578af43624080897eda69d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/7b0b40492115efa5fde72b887c212c4b/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/7bd1e9f3f1c14bcc3b4d8245d8924b6d/transformed/jetified-core-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/6ed4ea356bbb98f24cf72a0d8bccb8cc/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /home/akobir/.gradle/caches/8.10.2/transforms/eda99ddab973edecd0a865ed4941e6af/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /home/akobir/.gradle/caches/8.10.2/transforms/f1bf9cd544c9a96e85906a8edc051c7d/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.1] /home/akobir/.gradle/caches/8.10.2/transforms/a06056583fef4667db3049ca1f3224fd/transformed/jetified-protolite-well-known-types-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [io.grpc:grpc-android:1.62.2] /home/akobir/.gradle/caches/8.10.2/transforms/ead42d9f96f005a3dc281b3afcf7c1fb/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:2:1-9:12
+	package
+		INJECTED from /home/akobir/Desktop/anzirat/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/akobir/Desktop/anzirat/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/akobir/Desktop/anzirat/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/akobir/Desktop/anzirat/android/app/src/main/AndroidManifest.xml:1:11-69
+queries
+ADDED from /home/akobir/Desktop/anzirat/android/app/src/main/AndroidManifest.xml:41:5-46:15
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/7bfe7412aba129e41d3af0313cae2005/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/7bfe7412aba129e41d3af0313cae2005/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from /home/akobir/Desktop/anzirat/android/app/src/main/AndroidManifest.xml:42:9-45:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from /home/akobir/Desktop/anzirat/android/app/src/main/AndroidManifest.xml:43:13-72
+	android:name
+		ADDED from /home/akobir/Desktop/anzirat/android/app/src/main/AndroidManifest.xml:43:21-70
+data
+ADDED from /home/akobir/Desktop/anzirat/android/app/src/main/AndroidManifest.xml:44:13-50
+	android:mimeType
+		ADDED from /home/akobir/Desktop/anzirat/android/app/src/main/AndroidManifest.xml:44:19-48
+uses-permission#android.permission.INTERNET
+ADDED from /home/akobir/Desktop/anzirat/android/app/src/debug/AndroidManifest.xml:6:5-66
+MERGED from [com.google.firebase:firebase-firestore:25.1.4] /home/akobir/.gradle/caches/8.10.2/transforms/77649fd1c7fb900a4267d255a26d7478/transformed/jetified-firebase-firestore-25.1.4/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.1.4] /home/akobir/.gradle/caches/8.10.2/transforms/77649fd1c7fb900a4267d255a26d7478/transformed/jetified-firebase-firestore-25.1.4/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/a483e211b93e4979737e2f6374c1a6af/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/a483e211b93e4979737e2f6374c1a6af/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/d4f80440a39ac3464c7b03951ec5eca3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/d4f80440a39ac3464c7b03951ec5eca3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/7bfe7412aba129e41d3af0313cae2005/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/7bfe7412aba129e41d3af0313cae2005/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/639e5a738f79ef0b656c765b3b6e8e68/transformed/jetified-play-services-measurement-impl-22.4.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/639e5a738f79ef0b656c765b3b6e8e68/transformed/jetified-play-services-measurement-impl-22.4.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/9b896d0a570601fa4a2f5abcf835befe/transformed/jetified-play-services-measurement-sdk-api-22.4.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/9b896d0a570601fa4a2f5abcf835befe/transformed/jetified-play-services-measurement-sdk-api-22.4.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/akobir/Desktop/anzirat/android/app/src/debug/AndroidManifest.xml:6:22-64
+uses-sdk
+INJECTED from /home/akobir/Desktop/anzirat/android/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/akobir/Desktop/anzirat/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/akobir/Desktop/anzirat/android/app/src/debug/AndroidManifest.xml
+MERGED from [:cloud_firestore] /home/akobir/Desktop/anzirat/build/cloud_firestore/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /home/akobir/Desktop/anzirat/build/cloud_firestore/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/akobir/Desktop/anzirat/build/firebase_core/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/akobir/Desktop/anzirat/build/firebase_core/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore:25.1.4] /home/akobir/.gradle/caches/8.10.2/transforms/77649fd1c7fb900a4267d255a26d7478/transformed/jetified-firebase-firestore-25.1.4/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:25.1.4] /home/akobir/.gradle/caches/8.10.2/transforms/77649fd1c7fb900a4267d255a26d7478/transformed/jetified-firebase-firestore-25.1.4/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-analytics:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4f182c471d29c04c054346412ddb22ee/transformed/jetified-firebase-analytics-22.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4f182c471d29c04c054346412ddb22ee/transformed/jetified-firebase-analytics-22.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/a483e211b93e4979737e2f6374c1a6af/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/a483e211b93e4979737e2f6374c1a6af/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/d4f80440a39ac3464c7b03951ec5eca3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/d4f80440a39ac3464c7b03951ec5eca3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/65a9d18ee838cb493944ca5d890d73cf/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/65a9d18ee838cb493944ca5d890d73cf/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/0709e0505fb3a4af8828daf8b82e9616/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/0709e0505fb3a4af8828daf8b82e9616/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [:google_maps_flutter_android] /home/akobir/Desktop/anzirat/build/google_maps_flutter_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter_android] /home/akobir/Desktop/anzirat/build/google_maps_flutter_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /home/akobir/Desktop/anzirat/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /home/akobir/Desktop/anzirat/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/7bfe7412aba129e41d3af0313cae2005/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/7bfe7412aba129e41d3af0313cae2005/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/00518d6f8d9a677cdb87652fc9ef8de1/transformed/jetified-play-services-measurement-sdk-22.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/00518d6f8d9a677cdb87652fc9ef8de1/transformed/jetified-play-services-measurement-sdk-22.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/akobir/.gradle/caches/8.10.2/transforms/6e309a59e50ed66230dcc70a6d9bbeb8/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/akobir/.gradle/caches/8.10.2/transforms/6e309a59e50ed66230dcc70a6d9bbeb8/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/639e5a738f79ef0b656c765b3b6e8e68/transformed/jetified-play-services-measurement-impl-22.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/639e5a738f79ef0b656c765b3b6e8e68/transformed/jetified-play-services-measurement-impl-22.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/26ea5a18575ba8cf8b0d3786bdabf17e/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/26ea5a18575ba8cf8b0d3786bdabf17e/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/9b896d0a570601fa4a2f5abcf835befe/transformed/jetified-play-services-measurement-sdk-api-22.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/9b896d0a570601fa4a2f5abcf835befe/transformed/jetified-play-services-measurement-sdk-api-22.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/b1cbf1f0045adcfb3bf974de891089c8/transformed/jetified-play-services-measurement-base-22.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/b1cbf1f0045adcfb3bf974de891089c8/transformed/jetified-play-services-measurement-base-22.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/akobir/.gradle/caches/8.10.2/transforms/3252e9493e09f2efe1be25a85ec079da/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/akobir/.gradle/caches/8.10.2/transforms/3252e9493e09f2efe1be25a85ec079da/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/6dd465265a93cf9486f3374ba47451ad/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/6dd465265a93cf9486f3374ba47451ad/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/akobir/.gradle/caches/8.10.2/transforms/c1508942efbcced8351531507f1c5c83/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/akobir/.gradle/caches/8.10.2/transforms/c1508942efbcced8351531507f1c5c83/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /home/akobir/.gradle/caches/8.10.2/transforms/1d7753ef065727502c3c17f8c8e7e185/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /home/akobir/.gradle/caches/8.10.2/transforms/1d7753ef065727502c3c17f8c8e7e185/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /home/akobir/.gradle/caches/8.10.2/transforms/72a4c79bbb1d6227ca51abd962f8c9fb/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /home/akobir/.gradle/caches/8.10.2/transforms/72a4c79bbb1d6227ca51abd962f8c9fb/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [androidx.window:window:1.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/27439c25d4bdb5512ee3a87dc24706ac/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/27439c25d4bdb5512ee3a87dc24706ac/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/667b856a0b278b30ac7ae2891e276829/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/667b856a0b278b30ac7ae2891e276829/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] /home/akobir/.gradle/caches/8.10.2/transforms/0853fa8d026491d0fa9354d7df0467d9/transformed/jetified-ads-adservices-java-1.1.0-beta11/AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] /home/akobir/.gradle/caches/8.10.2/transforms/0853fa8d026491d0fa9354d7df0467d9/transformed/jetified-ads-adservices-java-1.1.0-beta11/AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /home/akobir/.gradle/caches/8.10.2/transforms/dc7a4faaf421fa2ac02c2a2a6b25e2e3/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /home/akobir/.gradle/caches/8.10.2/transforms/dc7a4faaf421fa2ac02c2a2a6b25e2e3/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/41d3c1b0ab6e757532718b39806e69c0/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/41d3c1b0ab6e757532718b39806e69c0/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/49642b896c199de34be912d082247b42/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/49642b896c199de34be912d082247b42/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] /home/akobir/.gradle/caches/8.10.2/transforms/8b0c0d9b2754a3cdd7989518458297b9/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] /home/akobir/.gradle/caches/8.10.2/transforms/8b0c0d9b2754a3cdd7989518458297b9/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/bb03bb497a1d10013dadb3b071e0f839/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/bb03bb497a1d10013dadb3b071e0f839/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/33b3459aa297e5d84a3333493962d6f9/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/33b3459aa297e5d84a3333493962d6f9/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/a1b003a7735a6a45ea53e2e50fd4e99d/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/a1b003a7735a6a45ea53e2e50fd4e99d/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/b14af1388f34e68607ab121f849d82c0/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/b14af1388f34e68607ab121f849d82c0/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/846d7fa48fc163c73e8e5144db254d5f/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/846d7fa48fc163c73e8e5144db254d5f/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/741d51c4e89ab9b002a3c94810505322/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/741d51c4e89ab9b002a3c94810505322/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/9634b9b5ebbc8c2e62989d0930941129/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/9634b9b5ebbc8c2e62989d0930941129/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] /home/akobir/.gradle/caches/8.10.2/transforms/510705528704b0f7adce8e9b29159709/transformed/jetified-play-services-basement-18.5.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] /home/akobir/.gradle/caches/8.10.2/transforms/510705528704b0f7adce8e9b29159709/transformed/jetified-play-services-basement-18.5.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.7.1] /home/akobir/.gradle/caches/8.10.2/transforms/655b8aab7c7e969674c4a15cf33aa20b/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /home/akobir/.gradle/caches/8.10.2/transforms/655b8aab7c7e969674c4a15cf33aa20b/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/07e086e9bd99958283dac9dc11656bb2/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/07e086e9bd99958283dac9dc11656bb2/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /home/akobir/.gradle/caches/8.10.2/transforms/424ad07aad44ad6c576462832c4bba24/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /home/akobir/.gradle/caches/8.10.2/transforms/424ad07aad44ad6c576462832c4bba24/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/3c73aa8a604276ecfa019b74c021069e/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/3c73aa8a604276ecfa019b74c021069e/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /home/akobir/.gradle/caches/8.10.2/transforms/7fc5c742c6cb7c9440eca269c6b3d363/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /home/akobir/.gradle/caches/8.10.2/transforms/7fc5c742c6cb7c9440eca269c6b3d363/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/53f1b7f33b7c1bd16b8c68366d0f79dc/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/53f1b7f33b7c1bd16b8c68366d0f79dc/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/f70bbed580018ce04323adf4742e72d7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/f70bbed580018ce04323adf4742e72d7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/akobir/.gradle/caches/8.10.2/transforms/330de5cf429d5bab9c6a157a1c272a1f/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/akobir/.gradle/caches/8.10.2/transforms/330de5cf429d5bab9c6a157a1c272a1f/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/akobir/.gradle/caches/8.10.2/transforms/385aee54925ca27463353f2f2c976e73/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/akobir/.gradle/caches/8.10.2/transforms/385aee54925ca27463353f2f2c976e73/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/a6f77a89ac66df62276fc8f2fb5d84e5/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/a6f77a89ac66df62276fc8f2fb5d84e5/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/c0f5c34eca95e74a3909ad82082656a5/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/c0f5c34eca95e74a3909ad82082656a5/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/0faf619ebc8e74a98f770cfe8bb957e8/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/0faf619ebc8e74a98f770cfe8bb957e8/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/akobir/.gradle/caches/8.10.2/transforms/605143ce6588e70a0028ddb243047b90/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/akobir/.gradle/caches/8.10.2/transforms/605143ce6588e70a0028ddb243047b90/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/8db80dc3d7b9568ad6df0ced6c9b6bbe/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/8db80dc3d7b9568ad6df0ced6c9b6bbe/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/cde24d5cab3eeae53f1bd5eaf9ab5e6b/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/cde24d5cab3eeae53f1bd5eaf9ab5e6b/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/ceea73ec94578af43624080897eda69d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/ceea73ec94578af43624080897eda69d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/7b0b40492115efa5fde72b887c212c4b/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/7b0b40492115efa5fde72b887c212c4b/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/7bd1e9f3f1c14bcc3b4d8245d8924b6d/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/7bd1e9f3f1c14bcc3b4d8245d8924b6d/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/6ed4ea356bbb98f24cf72a0d8bccb8cc/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/6ed4ea356bbb98f24cf72a0d8bccb8cc/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /home/akobir/.gradle/caches/8.10.2/transforms/eda99ddab973edecd0a865ed4941e6af/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /home/akobir/.gradle/caches/8.10.2/transforms/eda99ddab973edecd0a865ed4941e6af/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /home/akobir/.gradle/caches/8.10.2/transforms/f1bf9cd544c9a96e85906a8edc051c7d/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /home/akobir/.gradle/caches/8.10.2/transforms/f1bf9cd544c9a96e85906a8edc051c7d/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.1] /home/akobir/.gradle/caches/8.10.2/transforms/a06056583fef4667db3049ca1f3224fd/transformed/jetified-protolite-well-known-types-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.1] /home/akobir/.gradle/caches/8.10.2/transforms/a06056583fef4667db3049ca1f3224fd/transformed/jetified-protolite-well-known-types-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.62.2] /home/akobir/.gradle/caches/8.10.2/transforms/ead42d9f96f005a3dc281b3afcf7c1fb/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.62.2] /home/akobir/.gradle/caches/8.10.2/transforms/ead42d9f96f005a3dc281b3afcf7c1fb/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from /home/akobir/Desktop/anzirat/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/akobir/Desktop/anzirat/android/app/src/debug/AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:cloud_firestore] /home/akobir/Desktop/anzirat/build/cloud_firestore/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /home/akobir/Desktop/anzirat/build/firebase_core/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /home/akobir/Desktop/anzirat/build/firebase_core/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.4] /home/akobir/.gradle/caches/8.10.2/transforms/77649fd1c7fb900a4267d255a26d7478/transformed/jetified-firebase-firestore-25.1.4/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.4] /home/akobir/.gradle/caches/8.10.2/transforms/77649fd1c7fb900a4267d255a26d7478/transformed/jetified-firebase-firestore-25.1.4/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/a483e211b93e4979737e2f6374c1a6af/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/a483e211b93e4979737e2f6374c1a6af/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/d4f80440a39ac3464c7b03951ec5eca3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/d4f80440a39ac3464c7b03951ec5eca3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/65a9d18ee838cb493944ca5d890d73cf/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/65a9d18ee838cb493944ca5d890d73cf/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/0709e0505fb3a4af8828daf8b82e9616/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/0709e0505fb3a4af8828daf8b82e9616/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-firestore:25.1.4] /home/akobir/.gradle/caches/8.10.2/transforms/77649fd1c7fb900a4267d255a26d7478/transformed/jetified-firebase-firestore-25.1.4/AndroidManifest.xml:16:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/0709e0505fb3a4af8828daf8b82e9616/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/0709e0505fb3a4af8828daf8b82e9616/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [:cloud_firestore] /home/akobir/Desktop/anzirat/build/cloud_firestore/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] /home/akobir/Desktop/anzirat/build/cloud_firestore/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:cloud_firestore] /home/akobir/Desktop/anzirat/build/cloud_firestore/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:cloud_firestore] /home/akobir/Desktop/anzirat/build/cloud_firestore/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:17-134
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /home/akobir/Desktop/anzirat/build/firebase_core/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /home/akobir/Desktop/anzirat/build/firebase_core/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /home/akobir/Desktop/anzirat/build/firebase_core/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:17-124
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-firestore:25.1.4] /home/akobir/.gradle/caches/8.10.2/transforms/77649fd1c7fb900a4267d255a26d7478/transformed/jetified-firebase-firestore-25.1.4/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/a483e211b93e4979737e2f6374c1a6af/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/a483e211b93e4979737e2f6374c1a6af/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/d4f80440a39ac3464c7b03951ec5eca3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/d4f80440a39ac3464c7b03951ec5eca3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/7bfe7412aba129e41d3af0313cae2005/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/7bfe7412aba129e41d3af0313cae2005/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/639e5a738f79ef0b656c765b3b6e8e68/transformed/jetified-play-services-measurement-impl-22.4.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/639e5a738f79ef0b656c765b3b6e8e68/transformed/jetified-play-services-measurement-impl-22.4.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/9b896d0a570601fa4a2f5abcf835befe/transformed/jetified-play-services-measurement-sdk-api-22.4.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/9b896d0a570601fa4a2f5abcf835befe/transformed/jetified-play-services-measurement-sdk-api-22.4.0/AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] /home/akobir/.gradle/caches/8.10.2/transforms/ead42d9f96f005a3dc281b3afcf7c1fb/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] /home/akobir/.gradle/caches/8.10.2/transforms/ead42d9f96f005a3dc281b3afcf7c1fb/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.4] /home/akobir/.gradle/caches/8.10.2/transforms/77649fd1c7fb900a4267d255a26d7478/transformed/jetified-firebase-firestore-25.1.4/AndroidManifest.xml:10:22-76
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.1.4] /home/akobir/.gradle/caches/8.10.2/transforms/77649fd1c7fb900a4267d255a26d7478/transformed/jetified-firebase-firestore-25.1.4/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.1.4] /home/akobir/.gradle/caches/8.10.2/transforms/77649fd1c7fb900a4267d255a26d7478/transformed/jetified-firebase-firestore-25.1.4/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.4] /home/akobir/.gradle/caches/8.10.2/transforms/77649fd1c7fb900a4267d255a26d7478/transformed/jetified-firebase-firestore-25.1.4/AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.1.4] /home/akobir/.gradle/caches/8.10.2/transforms/77649fd1c7fb900a4267d255a26d7478/transformed/jetified-firebase-firestore-25.1.4/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.1.4] /home/akobir/.gradle/caches/8.10.2/transforms/77649fd1c7fb900a4267d255a26d7478/transformed/jetified-firebase-firestore-25.1.4/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.4] /home/akobir/.gradle/caches/8.10.2/transforms/77649fd1c7fb900a4267d255a26d7478/transformed/jetified-firebase-firestore-25.1.4/AndroidManifest.xml:21:17-111
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/a483e211b93e4979737e2f6374c1a6af/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/639e5a738f79ef0b656c765b3b6e8e68/transformed/jetified-play-services-measurement-impl-22.4.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/639e5a738f79ef0b656c765b3b6e8e68/transformed/jetified-play-services-measurement-impl-22.4.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/9b896d0a570601fa4a2f5abcf835befe/transformed/jetified-play-services-measurement-sdk-api-22.4.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/9b896d0a570601fa4a2f5abcf835befe/transformed/jetified-play-services-measurement-sdk-api-22.4.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/a483e211b93e4979737e2f6374c1a6af/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/a483e211b93e4979737e2f6374c1a6af/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/639e5a738f79ef0b656c765b3b6e8e68/transformed/jetified-play-services-measurement-impl-22.4.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/639e5a738f79ef0b656c765b3b6e8e68/transformed/jetified-play-services-measurement-impl-22.4.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/26ea5a18575ba8cf8b0d3786bdabf17e/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/26ea5a18575ba8cf8b0d3786bdabf17e/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/9b896d0a570601fa4a2f5abcf835befe/transformed/jetified-play-services-measurement-sdk-api-22.4.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/9b896d0a570601fa4a2f5abcf835befe/transformed/jetified-play-services-measurement-sdk-api-22.4.0/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/a483e211b93e4979737e2f6374c1a6af/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:25:22-76
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/a483e211b93e4979737e2f6374c1a6af/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:26:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/9b896d0a570601fa4a2f5abcf835befe/transformed/jetified-play-services-measurement-sdk-api-22.4.0/AndroidManifest.xml:27:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/9b896d0a570601fa4a2f5abcf835befe/transformed/jetified-play-services-measurement-sdk-api-22.4.0/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/a483e211b93e4979737e2f6374c1a6af/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:26:22-85
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/a483e211b93e4979737e2f6374c1a6af/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:27:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/9b896d0a570601fa4a2f5abcf835befe/transformed/jetified-play-services-measurement-sdk-api-22.4.0/AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/9b896d0a570601fa4a2f5abcf835befe/transformed/jetified-play-services-measurement-sdk-api-22.4.0/AndroidManifest.xml:28:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/a483e211b93e4979737e2f6374c1a6af/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:27:22-79
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/a483e211b93e4979737e2f6374c1a6af/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/a483e211b93e4979737e2f6374c1a6af/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/a483e211b93e4979737e2f6374c1a6af/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:34:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/d4f80440a39ac3464c7b03951ec5eca3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/d4f80440a39ac3464c7b03951ec5eca3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/d4f80440a39ac3464c7b03951ec5eca3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/d4f80440a39ac3464c7b03951ec5eca3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/d4f80440a39ac3464c7b03951ec5eca3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/d4f80440a39ac3464c7b03951ec5eca3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/65a9d18ee838cb493944ca5d890d73cf/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/65a9d18ee838cb493944ca5d890d73cf/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/65a9d18ee838cb493944ca5d890d73cf/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/0709e0505fb3a4af8828daf8b82e9616/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/0709e0505fb3a4af8828daf8b82e9616/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/0709e0505fb3a4af8828daf8b82e9616/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/0709e0505fb3a4af8828daf8b82e9616/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/0709e0505fb3a4af8828daf8b82e9616/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/0709e0505fb3a4af8828daf8b82e9616/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/0709e0505fb3a4af8828daf8b82e9616/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/0709e0505fb3a4af8828daf8b82e9616/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/akobir/.gradle/caches/8.10.2/transforms/0709e0505fb3a4af8828daf8b82e9616/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/7bfe7412aba129e41d3af0313cae2005/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/7bfe7412aba129e41d3af0313cae2005/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/7bfe7412aba129e41d3af0313cae2005/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/7bfe7412aba129e41d3af0313cae2005/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/7bfe7412aba129e41d3af0313cae2005/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/7bfe7412aba129e41d3af0313cae2005/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/7bfe7412aba129e41d3af0313cae2005/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/7bfe7412aba129e41d3af0313cae2005/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/639e5a738f79ef0b656c765b3b6e8e68/transformed/jetified-play-services-measurement-impl-22.4.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/639e5a738f79ef0b656c765b3b6e8e68/transformed/jetified-play-services-measurement-impl-22.4.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] /home/akobir/.gradle/caches/8.10.2/transforms/4a181d85fadfe412b0255b354c927012/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:40:13-87
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] /home/akobir/.gradle/caches/8.10.2/transforms/1d7753ef065727502c3c17f8c8e7e185/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /home/akobir/.gradle/caches/8.10.2/transforms/1d7753ef065727502c3c17f8c8e7e185/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /home/akobir/.gradle/caches/8.10.2/transforms/1d7753ef065727502c3c17f8c8e7e185/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /home/akobir/.gradle/caches/8.10.2/transforms/1d7753ef065727502c3c17f8c8e7e185/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/27439c25d4bdb5512ee3a87dc24706ac/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/27439c25d4bdb5512ee3a87dc24706ac/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/27439c25d4bdb5512ee3a87dc24706ac/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/27439c25d4bdb5512ee3a87dc24706ac/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/27439c25d4bdb5512ee3a87dc24706ac/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /home/akobir/.gradle/caches/8.10.2/transforms/27439c25d4bdb5512ee3a87dc24706ac/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+uses-library#android.ext.adservices
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /home/akobir/.gradle/caches/8.10.2/transforms/dc7a4faaf421fa2ac02c2a2a6b25e2e3/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /home/akobir/.gradle/caches/8.10.2/transforms/dc7a4faaf421fa2ac02c2a2a6b25e2e3/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /home/akobir/.gradle/caches/8.10.2/transforms/dc7a4faaf421fa2ac02c2a2a6b25e2e3/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:24:13-50
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.5.0] /home/akobir/.gradle/caches/8.10.2/transforms/510705528704b0f7adce8e9b29159709/transformed/jetified-play-services-basement-18.5.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /home/akobir/.gradle/caches/8.10.2/transforms/eda99ddab973edecd0a865ed4941e6af/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /home/akobir/.gradle/caches/8.10.2/transforms/eda99ddab973edecd0a865ed4941e6af/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:8:9-10:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.5.0] /home/akobir/.gradle/caches/8.10.2/transforms/510705528704b0f7adce8e9b29159709/transformed/jetified-play-services-basement-18.5.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.5.0] /home/akobir/.gradle/caches/8.10.2/transforms/510705528704b0f7adce8e9b29159709/transformed/jetified-play-services-basement-18.5.0/AndroidManifest.xml:22:13-58
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/akobir/.gradle/caches/8.10.2/transforms/7fc5c742c6cb7c9440eca269c6b3d363/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/akobir/.gradle/caches/8.10.2/transforms/7fc5c742c6cb7c9440eca269c6b3d363/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/akobir/.gradle/caches/8.10.2/transforms/7fc5c742c6cb7c9440eca269c6b3d363/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.example.anzirat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/akobir/.gradle/caches/8.10.2/transforms/7fc5c742c6cb7c9440eca269c6b3d363/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/akobir/.gradle/caches/8.10.2/transforms/7fc5c742c6cb7c9440eca269c6b3d363/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/akobir/.gradle/caches/8.10.2/transforms/7fc5c742c6cb7c9440eca269c6b3d363/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/akobir/.gradle/caches/8.10.2/transforms/7fc5c742c6cb7c9440eca269c6b3d363/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/akobir/.gradle/caches/8.10.2/transforms/7fc5c742c6cb7c9440eca269c6b3d363/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.anzirat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/akobir/.gradle/caches/8.10.2/transforms/7fc5c742c6cb7c9440eca269c6b3d363/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/akobir/.gradle/caches/8.10.2/transforms/7fc5c742c6cb7c9440eca269c6b3d363/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/f70bbed580018ce04323adf4742e72d7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/akobir/.gradle/caches/8.10.2/transforms/385aee54925ca27463353f2f2c976e73/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/akobir/.gradle/caches/8.10.2/transforms/385aee54925ca27463353f2f2c976e73/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/f70bbed580018ce04323adf4742e72d7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/f70bbed580018ce04323adf4742e72d7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/f70bbed580018ce04323adf4742e72d7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/f70bbed580018ce04323adf4742e72d7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/f70bbed580018ce04323adf4742e72d7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/f70bbed580018ce04323adf4742e72d7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/akobir/.gradle/caches/8.10.2/transforms/f70bbed580018ce04323adf4742e72d7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akobir/.gradle/caches/8.10.2/transforms/69f8b51763f538b6840dd2b6d62362ab/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

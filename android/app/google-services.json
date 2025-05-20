@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "566300077904",
+    "project_id": "location-task-c89b1",
+    "storage_bucket": "location-task-c89b1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566300077904:android:859e9d6659d1069c1b4655",
+        "android_client_info": {
+          "package_name": "com.example.anzirat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwDE4h9mNFZiiWLsHHi_0PtRjJzBmp09Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566300077904:android:b553f12b3d1622071b4655",
+        "android_client_info": {
+          "package_name": "uz.nodirbek"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwDE4h9mNFZiiWLsHHi_0PtRjJzBmp09Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
